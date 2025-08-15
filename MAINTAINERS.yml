@@ -513,6 +513,8 @@ Bluetooth HCI:
     - sjanc
     - HoZHel
     - cvinayak
+    - PavelVPV
+    - HaavardRei
   files:
     - include/zephyr/drivers/bluetooth/
     - include/zephyr/drivers/bluetooth.h
@@ -537,6 +539,8 @@ Bluetooth Host:
     - sjanc
     - Thalley
     - cvinayak
+    - PavelVPV
+    - HaavardRei
   files:
     - doc/connectivity/bluetooth/
     - include/zephyr/bluetooth/
@@ -5482,6 +5486,7 @@ West:
   status: maintained
   maintainers:
     - vaishnavachath
+    - ssekar15
   files: []
   labels:
     - "platform: TI"
@@ -5563,6 +5568,15 @@ West:
     - modules/Kconfig.libmetal
   labels:
     - "area: AMP"
+
+"West project: libsbc":
+  status: maintained
+  maintainers:
+    - MarkWangChinese
+  files:
+    - modules/libsbc/
+  labels:
+    - "area: Audio"
 
 "West project: littlefs":
   status: odd fixes
@@ -5675,8 +5689,7 @@ West:
   maintainers:
     - aescolar
   collaborators:
-    - wopu-ot
-    - thoh-ot
+    - rugeGerritsen
   files: []
   labels:
     - "area: native port"
